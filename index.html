@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#FAF6EF" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#151311" media="(prefers-color-scheme: dark)">
+<title>Holdmie</title>
+<meta name="description" content="Holdmie: an app for two people on iPhone. Privacy policy, terms of use and support.">
+<style>
+:root{color-scheme:light dark;--stage:#FAF6EF;--ink:#1D1916;--ink2:#5F574C;--pill:#EDE6DA;--pillInk:#1D1916;--on:#1D1916;--onInk:#FFFFFF;
+--sheet:#FAF6EF;--card:#F3EDE3;--line:#EDE6DA;--text:#1D1916;--body:rgba(29,25,22,.86);--muted:#5F574C;--accent:#A35039;--handle:#CFC6B8}
+@media (prefers-color-scheme:dark){:root{--stage:#151311;--ink:#F7F2EA;--ink2:#B7AFA4;--pill:#26221E;--pillInk:#F7F2EA;--on:#F7F2EA;--onInk:#151311;
+--sheet:#151311;--card:#1F1C19;--line:#26221E;--text:#F7F2EA;--body:rgba(247,242,234,.86);--muted:#B7AFA4;--accent:#E8A28C;--handle:#3D3831}}
+*{box-sizing:border-box}
+html{background:var(--sheet)}
+body{margin:0;background:var(--sheet);color:var(--text);font:17px/1.6 -apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%}
+.wrap{max-width:720px;margin:0 auto;padding-inline:16px}
+.stage{background:var(--stage);color:var(--ink);padding:20px 0 60px}
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.brand{color:var(--ink);text-decoration:none;font-weight:700;font-size:19px;letter-spacing:-.01em}
+nav{display:flex;flex-wrap:wrap;gap:6px}
+nav a{color:var(--pillInk);background:var(--pill);text-decoration:none;border-radius:999px;padding:7px 14px;font-weight:600;font-size:14px;line-height:1.3}
+nav a[aria-current=page]{background:var(--on);color:var(--onInk)}
+h1{font-size:40px;line-height:1.08;letter-spacing:-.025em;margin:36px 0 10px;font-weight:700;overflow-wrap:anywhere}
+.lead{color:var(--ink2);margin:0;font-size:16px}
+.lead a{color:var(--ink)}
+.nw{white-space:nowrap}
+.sheet{background:var(--sheet);border-radius:28px 28px 0 0;margin-top:-28px;position:relative;padding:14px 0 56px}
+.handle{width:40px;height:5px;border-radius:3px;background:var(--handle);margin:0 auto 22px}
+.toc{background:var(--card);border-radius:20px;padding:14px 18px;margin:20px 0 12px}
+.toc a{text-decoration:none}.toc a:hover{text-decoration:underline}
+.toc p{margin:0 0 6px;color:var(--muted);font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:.06em}
+.toc ol{margin:0;padding-left:20px;color:var(--muted);font-size:15px;line-height:1.7}
+.intro p{color:var(--text)}
+section{padding:18px 0;border-top:1px solid var(--line)}
+section:first-of-type{border-top:0}
+h2{font-size:20px;line-height:1.3;letter-spacing:-.01em;margin:0 0 6px;color:var(--text);font-weight:650;scroll-margin-top:16px}
+p{margin:8px 0;color:var(--body);overflow-wrap:anywhere}
+a{color:var(--accent);text-underline-offset:2px}
+.faq section,.links a{background:var(--card);border:0;border-radius:20px;padding:16px 18px;margin:10px 0}
+.links{display:grid;gap:10px;margin:0}
+.links a{display:block;margin:0;text-decoration:none;color:var(--text)}
+.links a strong{display:block;font-size:19px;font-weight:650}
+.links a span{display:block;color:var(--muted);font-size:15px;margin-top:2px}
+.links a:hover strong,.links a:focus-visible strong{color:var(--accent)}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:6px}
+footer{color:var(--muted);font-size:14px;margin-top:32px;padding-top:18px;border-top:1px solid var(--line)}
+footer p{color:var(--muted);margin:4px 0}
+@media (max-width:420px){h1{font-size:32px}body{font-size:16px}.stage{padding-top:14px}}
+</style>
+</head>
+<body>
+<header class="stage"><div class="wrap">
+<div class="top"><a class="brand" href="index.html" aria-current="page">Holdmie</a><nav aria-label="Pages"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="support.html">Support</a></nav></div>
+<h1>Holdmie</h1><p class="lead">An app for two people on iPhone</p>
+</div></header>
+<main class="sheet"><div class="wrap"><div class="handle" aria-hidden="true"></div>
+<div class="links"><a href="privacy.html"><strong>Privacy Policy</strong><span>What the app handles, where it goes and your choices</span></a><a href="terms.html"><strong>Terms of Use (EULA)</strong><span>Using Holdmie, subscriptions and the Apple Standard EULA</span></a><a href="support.html"><strong>Support</strong><span>Answers to common questions and how to contact us</span></a></div><section><h2>Contact</h2><p>Questions or problems? Email <a href="mailto:muneebrafishakoor@gmail.com">muneebrafishakoor@gmail.com</a>.</p></section>
+<footer><p>© 2026 Muneeb Rafi · Holdmie</p><p>Contact: <a href="mailto:muneebrafishakoor@gmail.com">muneebrafishakoor@gmail.com</a></p></footer>
+</div></main>
+</body>
+</html>
